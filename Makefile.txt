@@ -1,0 +1,5 @@
+#Accelerometer makefile
+
+all:
+        gcc -o main main.c ADXL345_driver.c audio_driver.c driver_functions.c -l
+m -pthread
